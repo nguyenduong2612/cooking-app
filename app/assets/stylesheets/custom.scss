@@ -220,3 +220,11 @@ input {
     border-bottom: 1px solid #bbb;
   }
 }
+
+.pagination li a {
+  padding: 15px;
+  font-size: 20px;
+}
+.pagination li.active a {
+  color: #f01d0e;
+}

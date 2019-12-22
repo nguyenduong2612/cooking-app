@@ -1,12 +1,26 @@
 <% provide(:title, 'All users') %>
-<h1>All users</h1>
 
-<%= will_paginate %>
+<div class="mt-5 pt-5" style="background-color: #e5e5e5; min-height: 100vh" >
+    <div class="row">
+        <div class="col-lg-3">
+            <%= render 'layouts/sidebar' %> 
+        </div>
+        <div class="col-lg-9 pl-0">
+            <h2 class="mb-4">Users</h2>
+            <div class="row mb-5">
+              <div class="col-md-12">
+                <div class="mx-auto my-3" style="width: 90%"><%= will_paginate %></div>
 
-<ul class="users">
-  <% @users.each do |user| %>
-    <%= render user %>
-  <% end %>
-</ul>
+                <ul class="users m-auto" style="width: 90%; font-size: 1rem">
+                  <% @users.each do |user| %>
+                    <%= render user %>
+                  <% end %>
+                </ul>
 
-<%= will_paginate %>
+                <div class="mx-auto my-3" style="width: 90%"><%= will_paginate %></div>
+              </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

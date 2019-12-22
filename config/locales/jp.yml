@@ -38,6 +38,11 @@ jp:
     button: "お問い合わせ"
   search:
     title: "検索結果"
+  dashboard:
+    title: "メッセージを作成する： "
+    button: "メッセージ送信"
+    send: "送信"
+    close: "削除"
   form:
     login:
       title: "ログイン"
@@ -64,3 +69,9 @@ jp:
       pass: "パスワード"
       confirm: "確認用のパスワード"
       button: "保存する"
+  
+  sidebar:
+    item: "レシピ一覧"
+    category: "カテゴリ一覧"
+    user: "ユーザー一覧"
+    map: "マップ"

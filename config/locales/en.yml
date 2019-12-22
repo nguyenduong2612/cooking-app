@@ -38,6 +38,11 @@ en:
     button: "Contact with us"
   search:
     title: "Search Result"
+  dashboard:
+    title: "Send message to all user: "
+    button: "Send message"
+    send: "Send"
+    close: "Close"
   form:
     login:
       title: "Sign in"
@@ -60,3 +65,9 @@ en:
     update:
       title: "Update your profile"
       button: "Save changes"
+
+  sidebar:
+    item: "Items"
+    category: "Categories"
+    user: "Users"
+    map: "Maps"

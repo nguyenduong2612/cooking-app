@@ -94,6 +94,7 @@ GEM
     cloudinary (1.13.1)
       aws_cf_signer
       rest-client
+    cocoon (1.2.14)
     concurrent-ruby (1.1.5)
     connection_pool (2.2.2)
     crass (1.0.5)
@@ -328,6 +329,7 @@ DEPENDENCIES
   carrierwave
   ckeditor
   cloudinary (~> 1.13.1)
+  cocoon
   devise
   faker (= 2.7.0)
   gmaps4rails

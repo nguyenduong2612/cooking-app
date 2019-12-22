@@ -69,7 +69,7 @@ Rails.application.configure do
 
   #send mail
   # config/environments/production.rb
-  config.action_mailer.default_url_options = {host: "localhost:3000"}
+  config.action_mailer.default_url_options = {host: host}
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
@@ -78,8 +78,8 @@ Rails.application.configure do
     :address => "smtp.gmail.com",
     :port => 587,
     :domain => 'smtp.gmail.com',
-    :user_name => ENV["GMAIL_USERNAME"],
-    :password => ENV["GMAIL_PASSWORD"],
+    :user_name => 'quanganh.akira@gmail.com',
+    :password => 'optimus2310',
     :authentication => :login,
     :enable_starttls_auto => true
   } 
